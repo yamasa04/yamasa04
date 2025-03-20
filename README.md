@@ -17,10 +17,12 @@ git commit -m "コミットメッセージ"
 git diff
 ```
 リポジトリとワークツリーの差分をチェック。
+
 ```
 git diff --staged
 ```
 リポジトリとステージの差分をチェック。
+
 ```
 git status
 ```
@@ -36,10 +38,12 @@ git log
 git restore "ファイル名"
 ```
 ワークツリーの変更を取り消す。
+
 ```
 git restore --staged "ファイル名"
 ```
 ステージに挙げた変更をワークツリーに戻す。
+
 ```
 git checkout "ファイル名"
 ```
